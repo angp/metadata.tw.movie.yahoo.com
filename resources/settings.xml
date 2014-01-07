@@ -1,0 +1,4 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<settings>
+	<setting label="30100" type="enum" id="titleFormat" lvalues="30010|30011|30012|30013" default="2"/>
+</settings>
