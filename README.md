@@ -1,5 +1,7 @@
-xbmc-traditional-chinese-scraper
-================================
+metadata.tw.movie.yahoo.com
+========================
+
+[XBMC] Yahoo!奇摩電影 正體中文刮削器(scraper) 
 
 給 XBMC 使用的正體中文電影資料 scraper
 
