@@ -38,6 +38,6 @@ https://github.com/angp/xbmc-traditional-chinese-scraper
 
 直接下載:
 
-AtMovies: https://github.com/angp/metadata.atmovies.com.tw/archive/atmovies_v1.4.4.zip
+AtMovies: https://github.com/angp/metadata.atmovies.com.tw/archive/atmovies_v1.4.5.zip
 
-Yahoo!Movie : https://github.com/angp/metadata.tw.movie.yahoo.com/archive/yahoo_v1.0.3.zip
+Yahoo!Movie : https://github.com/angp/metadata.tw.movie.yahoo.com/archive/yahoo_v1.0.4.zip
