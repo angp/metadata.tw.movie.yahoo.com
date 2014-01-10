@@ -27,6 +27,9 @@
 				<RegExp input="$$1" output="\2" dest="4">
 					<expression trim="1" noclean="1">&lt;title&gt;(.*)\((.*)\) - Yahoo</expression>
 				</RegExp>
+        <RegExp conditional="titleEliminateThe" input="$$4" output="\1" dest="4">
+				  <expression noclean="1">The (.*)</expression>
+			  </RegExp>
 				<expression>1</expression>
 			</RegExp>
 			<!--title chinese (english)-->
@@ -34,6 +37,9 @@
 				<RegExp input="$$1" output="\1 (\2)" dest="4">
 					<expression trim="1" noclean="1">&lt;title&gt;(.*)\((.*)\) - Yahoo</expression>
 				</RegExp>
+        <RegExp conditional="titleEliminateThe" input="$$4" output="\1 (\2)" dest="4">
+				  <expression noclean="1">(.*) \(The (.*)\)</expression>
+			  </RegExp>
 				<expression>2</expression>
 			</RegExp>
 			<!--title english (chinese)-->
@@ -41,6 +47,9 @@
 				<RegExp input="$$1" output="\2 (\1)" dest="4">
 					<expression trim="1" noclean="1">&lt;title&gt;(.*)\((.*)\) - Yahoo</expression>
 				</RegExp>
+        <RegExp conditional="titleEliminateThe" input="$$4" output="\1" dest="4">
+				  <expression noclean="1">The (.*)</expression>
+			  </RegExp>
 				<expression>3</expression>
 			</RegExp>
 			<!--Genre-->

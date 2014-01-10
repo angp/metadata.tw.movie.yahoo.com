@@ -2,7 +2,7 @@
 <addon 
 	id="metadata.tw.movie.yahoo.com"
 	name="Yahoo!Taiwan Movie"
-	version="1.0.4"
+	version="1.0.5"
 	provider-name="Ramius|VincentLu">
 	<requires>
 		<import addon="xbmc.metadata"		version="2.1.0"/>
